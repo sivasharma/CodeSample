@@ -64,7 +64,7 @@ public class MainActivity extends Activity implements INetwork,RecyclerSwipeCont
         recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
 
         getApiDataArray();
-        recyclerView.setAdapter(countryRecyclerAdapter);
+        
     }
 
     //this block handles the recycler items from arraylist and swipe gesture callback
